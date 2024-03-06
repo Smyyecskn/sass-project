@@ -1,0 +1,15 @@
+@import "./variable.scss";
+
+.footer {
+  background-color: $İllüstrasyon-3-rgba;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  height: 8%;
+  p {
+    font-weight: 700px;
+    padding: 20px;
+  }
+}

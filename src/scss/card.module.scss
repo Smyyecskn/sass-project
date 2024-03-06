@@ -1,0 +1,42 @@
+@import "./variable.scss";
+.container {
+  text-align: center;
+  margin-bottom: 5rem;
+
+  .card {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  img {
+    width: 250px;
+    border-radius: 2rem;
+  }
+
+  h1 {
+    color: rgb(20, 137, 220);
+  }
+  h2 {
+    color: darkmagenta;
+  }
+  .buttons {
+    button {
+      margin-top: 10px;
+      cursor: pointer;
+      width: 70px;
+      height: 30px;
+      margin-right: 0.3rem;
+      border-radius: 0.8rem;
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+    .small {
+      background-color: $İllüstrasyon-4-hex;
+    }
+    .large {
+      background-color: $İllüstrasyon-2-hex;
+      width: 5rem;
+    }
+  }
+}
